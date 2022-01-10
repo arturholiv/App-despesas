@@ -21,7 +21,7 @@ class Header extends React.Component {
     const { email } = this.props;
     return (
       <header>
-        <h2>TrybeWallet</h2>
+        <h2>Carteira de despesas</h2>
         <h3 data-testid="total-field">
           Despesa total: R$
           {this.totalSum()}
