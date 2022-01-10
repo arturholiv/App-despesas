@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/appdespesas/static/css/main.134c36e8.chunk.css",
+    "main.js": "/appdespesas/static/js/main.f3f57cc3.chunk.js",
+    "main.js.map": "/appdespesas/static/js/main.f3f57cc3.chunk.js.map",
+    "runtime-main.js": "/appdespesas/static/js/runtime-main.5ff041a8.js",
+    "runtime-main.js.map": "/appdespesas/static/js/runtime-main.5ff041a8.js.map",
+    "static/js/2.54a45740.chunk.js": "/appdespesas/static/js/2.54a45740.chunk.js",
+    "static/js/2.54a45740.chunk.js.map": "/appdespesas/static/js/2.54a45740.chunk.js.map",
+    "index.html": "/appdespesas/index.html",
+    "precache-manifest.49b4392c5e692dcaa5081bc0105d11a7.js": "/appdespesas/precache-manifest.49b4392c5e692dcaa5081bc0105d11a7.js",
+    "service-worker.js": "/appdespesas/service-worker.js",
+    "static/css/main.134c36e8.chunk.css.map": "/appdespesas/static/css/main.134c36e8.chunk.css.map",
+    "static/js/2.54a45740.chunk.js.LICENSE.txt": "/appdespesas/static/js/2.54a45740.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5ff041a8.js",
+    "static/js/2.54a45740.chunk.js",
+    "static/css/main.134c36e8.chunk.css",
+    "static/js/main.f3f57cc3.chunk.js"
+  ]
+}
