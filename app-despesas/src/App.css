@@ -17,25 +17,64 @@ input {
   font-family: 'Roboto', sans-serif;
   color: #333;
   font-size: 1.2rem;
-	margin: 1.5vh;
+  margin: 1.5vh;
   border-radius: 0.2rem;
   background-color: rgb(255, 255, 255);
   border: none;
-  width: 10vh;
+  width: 12vh;
   /* display: block; */
   border-bottom: 0.3rem solid transparent;
   transition: all 0.3s;
 }
 
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15%;
+}
+
+.expenses-form {
+}
+
+button {
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  font-size: 1.2rem;
+  margin: 1.5vh;
+  border-radius: 0.2rem;
+  background-color: #BF3552;
+  border: none;
+  width: 15vh;
+  /* display: block; */
+  border-bottom: 0.3rem solid transparent;
+  transition: all 0.3s;
+}
+
+.whole-login-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.moneyicon {
+  background-image: none !important;
+}
+
+button:hover {
+  background-color: #5a94cf;
+}
+
 select {
   font-family: 'Roboto', sans-serif;
   color: #333;
-  font-size: 1.2rem;
-	margin: 1vh;
+  font-size: 1rem;
+  margin: 1vh;
   border-radius: 0.2rem;
   background-color: rgb(255, 255, 255);
   border: none;
-  width: 10%;
+  width: 10vh;
   /* display: block; */
   border-bottom: 0.3rem solid transparent;
   transition: all 0.3s;
@@ -101,64 +140,64 @@ body{
 
 @media (max-width: 767px) {
   .fl-table {
-      display: block;
-      width: 100%;
+    display: block;
+    width: 100%;
   }
   .table-wrapper:before{
-      content: "Scroll horizontally >";
-      display: block;
-      text-align: right;
-      font-size: 11px;
-      color: white;
-      padding: 0 0 10px;
+    content: "Scroll horizontally >";
+    display: block;
+    text-align: right;
+    font-size: 11px;
+    color: white;
+    padding: 0 0 10px;
   }
   .fl-table thead, .fl-table tbody, .fl-table thead th {
-      display: block;
+    display: block;
   }
   .fl-table thead th:last-child{
-      border-bottom: none;
+    border-bottom: none;
   }
   .fl-table thead {
-      float: left;
+    float: left;
   }
   .fl-table tbody {
-      width: auto;
-      position: relative;
-      overflow-x: auto;
+    width: auto;
+    position: relative;
+    overflow-x: auto;
   }
   .fl-table td, .fl-table th {
-      padding: 20px .625em .625em .625em;
-      height: 60px;
-      vertical-align: middle;
-      box-sizing: border-box;
-      overflow-x: hidden;
-      overflow-y: auto;
-      width: 120px;
-      font-size: 13px;
-      text-overflow: ellipsis;
+    padding: 20px .625em .625em .625em;
+    height: 60px;
+    vertical-align: middle;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 120px;
+    font-size: 13px;
+    text-overflow: ellipsis;
   }
   .fl-table thead th {
-      text-align: left;
-      border-bottom: 1px solid #f7f7f9;
+    text-align: left;
+    border-bottom: 1px solid #f7f7f9;
   }
   .fl-table tbody tr {
-      display: table-cell;
+    display: table-cell;
   }
   .fl-table tbody tr:nth-child(odd) {
-      background: none;
+    background: none;
   }
   .fl-table tr:nth-child(even) {
-      background: transparent;
+    background: transparent;
   }
   .fl-table tr td:nth-child(odd) {
-      background: #F8F8F8;
-      border-right: 1px solid #E6E4E4;
+    background: #F8F8F8;
+    border-right: 1px solid #E6E4E4;
   }
   .fl-table tr td:nth-child(even) {
-      border-right: 1px solid #E6E4E4;
+    border-right: 1px solid #E6E4E4;
   }
   .fl-table tbody td {
-      display: block;
-      text-align: center;
+    display: block;
+    text-align: center;
   }
 }

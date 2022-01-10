@@ -30,8 +30,13 @@ class Login extends React.Component {
     const { dispatchUserEmail } = this.props;
     const minPasswordLength = 6;
     return (
-      <div>
-        <form className="form__group field">
+      <div className="whole-login-page">
+        <h1>
+          App de despesas
+        </h1>
+        <p>Carteira de conversão de moedas para Real</p>
+       <div className="login-page">
+        <form className="login-page">
           <label
             htmlFor="email-input"
             className="form__label"
@@ -65,6 +70,7 @@ class Login extends React.Component {
           <Link to="/carteira">
             <button
               type="submit"
+              className="enter-btn"
               disabled={ !(this.validateEmail(emailInputText)
               && password.length >= minPasswordLength) }
               onClick={ () => dispatchUserEmail(emailInputText) }
@@ -73,7 +79,9 @@ class Login extends React.Component {
             </button>
           </Link>
         </form>
-      </div>);
+      </div>
+      </div>
+      );
   }
 }
 

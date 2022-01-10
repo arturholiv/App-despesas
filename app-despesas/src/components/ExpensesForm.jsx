@@ -115,7 +115,7 @@ class ExpensesForm extends React.Component {
   render() {
     const { currency } = this.state;
     return (
-      <form onSubmit={ (event) => this.addExpense(event) }>
+      <form onSubmit={ (event) => this.addExpense(event) } className="expenses-form">
         <label htmlFor="description-input">
           Descrição:
           <input
