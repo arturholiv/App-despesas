@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0d218155c1e3f3a8a4e85985357f55b3",
+    "revision": "484d1c470983899b7a8b90b12e695f5f",
     "url": "/appdespesas/index.html"
   },
   {
-    "revision": "a351c994cf82caa76810",
+    "revision": "d877107e96cee9aea018",
     "url": "/appdespesas/static/css/main.134c36e8.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/appdespesas/static/js/2.54a45740.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a351c994cf82caa76810",
-    "url": "/appdespesas/static/js/main.f3f57cc3.chunk.js"
+    "revision": "d877107e96cee9aea018",
+    "url": "/appdespesas/static/js/main.f39a5f2a.chunk.js"
   },
   {
     "revision": "b0ccd4013d0a649d567b",
