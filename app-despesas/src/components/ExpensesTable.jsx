@@ -68,7 +68,7 @@ class ExpensesTable extends React.Component {
                 () => this.deleteExpenseFunc({ remove: expense, current: expenses })
               }
             >
-              Deletar despesa
+              Deletar
             </button>
           </td>
         </tr>
